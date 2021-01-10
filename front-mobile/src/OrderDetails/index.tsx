@@ -1,7 +1,7 @@
 import { useNavigation } from '@react-navigation/native';
 import Header from '../Header';
 import React from 'react';
-import { Alert, StyleSheet, Text, View } from 'react-native';
+import { Alert, Linking, StyleSheet, Text, View } from 'react-native';
 import { Order } from '../types';
 import OrderCard from '../OrderCard';
 import { RectButton } from 'react-native-gesture-handler';
@@ -34,13 +34,17 @@ function OrderDetails({ route } : Props) {
       })
   }
 
+  const handleStartNavigation = () => {
+    Linking.openURL(`https://www.google.com/maps/dir/?api=1&travelmode=driving&dir_action=navigate&destination=${order.latitude},${order.longitude}`)
+  }
+
   return (
     <>
       <Header />
       <View style={styles.container}>
         <OrderCard order={order} />
         <RectButton style={styles.button}>
-          <Text style={styles.buttonText}>INICIAR NAVEGAÇÃO</Text>
+          <Text style={styles.buttonText} onPress={handleStartNavigation}>INICIAR NAVEGAÇÃO</Text>
         </RectButton>
         <RectButton style={styles.button}>
           <Text style={styles.buttonText} onPress={handleConfirmDelivery}>CONFIRMAR ENTREGA</Text>
