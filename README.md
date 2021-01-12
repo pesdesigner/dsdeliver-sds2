@@ -11,14 +11,12 @@ Evento: Semana dev superior 2.0
 - Implantação: Heroku (Banco de dados);
 - Hospedagem: netlify.
 
-### Demonstração do Layout (Pedidos) - Web
-<img src="https://graficoeweb.com.br/images/home-web.PNG">
-<img src="https://graficoeweb.com.br/images/produtos.PNG">
-<img src="https://graficoeweb.com.br/images/mapa.PNG">
+### Demonstração do Layout DS Deliver - Web/mobile
+![Video demonstrativo](https://graficoeweb.com.br/images/video-app.gif)
 
 ### Demonstração do Layout (Entregas) - Mobile
-<img src="https://graficoeweb.com.br/images/home-mob.PNG">
-<img src="https://graficoeweb.com.br/images/list-mob.PNG">
-<img src="https://graficoeweb.com.br/images/details-mob.PNG">
+<img src="https://graficoeweb.com.br/images/home-web.PNG">
+<img src="https://graficoeweb.com.br/images/produtos.PNG">
+
 
 
