@@ -12,7 +12,9 @@ Evento: Semana dev superior 2.0
 - Hospedagem: netlify.
 
 ### Demonstração do Layout DS Deliver - Web/mobile
-![Video demonstrativo](https://graficoeweb.com.br/images/video-app.gif)
+<p align="center">
+  <img width="956" src="/front-mobile/assets/video-app.gif">
+</p>
 
 ### Demonstração do Layout (Entregas) - Mobile
 <img src="https://graficoeweb.com.br/images/home-web.PNG">
